@@ -1,0 +1,27 @@
+{
+    "name": "mawi12345/deepler",
+    "description": "Deepl Pro API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Wind",
+            "email": "mawi1988@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "require": {
+      "php": ">=5.6",
+      "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+      "php": ">=7.1",
+      "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+      "psr-4": {
+        "Mawi12345\\Deepler\\": "src/"
+      }
+    }
+}
